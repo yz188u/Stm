@@ -169,6 +169,7 @@ end
 
 -- Style data
 local rarityStyles = {
+	["Master"] = {"Loki"},
 	["World Class"] = {"Kaiser", "NEL Isagi", "NEL Rin", "Don Lorenzo", "Sae"},
 	["Mythic"] = {"King", "NEL Bachira", "Kunigami", "Rin", "Aiku", "Shidou", "Yukimiya"},
 	["Legendary"] = {"Karasu", "Reo", "Nagi"},
@@ -177,6 +178,7 @@ local rarityStyles = {
 }
 
 local rarityColors = {
+	["Master"] = Color3.fromRGB(0, 0, 0),
 	["World Class"] = Color3.fromRGB(220, 220, 220),
 	["Mythic"] = Color3.fromRGB(255, 50, 50),
 	["Legendary"] = Color3.fromRGB(255, 215, 0),
@@ -225,7 +227,7 @@ listLayout.Padding = UDim.new(0, 18)
 listLayout.VerticalAlignment = Enum.VerticalAlignment.Top
 
 -- Loop rarity dan styles
-for _, rarity in ipairs({"World Class", "Mythic", "Legendary", "Epic", "Rare"}) do
+for _, rarity in ipairs({"Master", "World Class", "Mythic", "Legendary", "Epic", "Rare"}) do
 	local styles = rarityStyles[rarity]
 	local color = rarityColors[rarity] or Color3.new(1, 1, 1)
 
