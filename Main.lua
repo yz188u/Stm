@@ -171,7 +171,7 @@ end
 local rarityStyles = {
 	["Master"] = {"Loki"},
 	["World Class"] = {"Kaiser", "NEL Isagi", "NEL Rin", "Don Lorenzo", "Sae"},
-	["Mythic"] = {"King", "NEL Bachira", "Kunigami", "Rin", "Aiku", "Shidou", "Yukimiya"},
+	["Mythic"] = {"King", "NEL Bachira", "Kunigami", "Aiku", "Shidou", "Yukimiya"},
 	["Legendary"] = {"Karasu", "Reo", "Nagi"},
 	["Epic"] = {"Igaguri", "Kurona", "Bachira", "Otoya", "Gagamaru", "Hiori"},
 	["Rare"] = {"Isagi", "Chigiri"},
